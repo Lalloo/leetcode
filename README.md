@@ -14,6 +14,7 @@
 | 551  | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)                 | [Java](algorithms/java/easy/StudentAttendanceRecordI.java) | $$\textcolor{green}{\text{easy}}$$    |
 | 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                   | [Java](algorithms/java/medium/MaxAreaOfIsland.java)        | $$\textcolor{orange}{\text{medium}}$$ |
 | 724  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                       | [Java](algorithms/java/easy/FindPivotIndex.java)           | $$\textcolor{green}{\text{easy}}$$    |
+| 876  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                     | [Java](algorithms/java/easy/MiddleOfTheLinkedList.java)    | $$\textcolor{green}{\text{easy}}$$    |
 | 1480 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                         | [Java](algorithms/java/easy/RunningSumOf1dArray.java)      | $$\textcolor{green}{\text{easy}}$$    |
 
 ### LeetCode Database
