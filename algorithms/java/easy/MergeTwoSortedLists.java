@@ -1,7 +1,12 @@
 package easy;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class MergeTwoSortedLists {
+    private static final Logger LOGGER = LoggerFactory.getLogger(MergeTwoSortedLists.class);
+
     public static void main(String[] args) {
         ListNode firstListNode1 = new ListNode(4, null);
         ListNode firstListNode2 = new ListNode(2, firstListNode1);
@@ -13,7 +18,7 @@ public class MergeTwoSortedLists {
 
         ListNode output = new MergeTwoSortedLists().mergeTwoLists(firstListNode3, secondListNode3);
         while (output != null) {
-            System.out.printf("%d ", output.val);
+            LOGGER.info("{} ", output.val);
             output = output.next;
         }
     }
