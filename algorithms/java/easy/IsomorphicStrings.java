@@ -2,7 +2,6 @@ package easy;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
 
 public class IsomorphicStrings {
 
@@ -17,8 +16,8 @@ public class IsomorphicStrings {
     }
 
     private String transformString(String s) {
-        Map<Character, Integer> indexMapping = new HashMap<>();
-        StringBuilder builder = new StringBuilder();
+        var indexMapping = new HashMap<Character, Integer>();
+        var builder = new StringBuilder();
 
         for (int i = 0; i < s.length(); ++i) {
             char c1 = s.charAt(i);
@@ -32,10 +31,10 @@ public class IsomorphicStrings {
 
     public boolean isIsomorphic2(String s, String t) {
 
-        int[] mappingDictStoT = new int[256];
+        var mappingDictStoT = new int[256];
         Arrays.fill(mappingDictStoT, -1);
 
-        int[] mappingDictTtoS = new int[256];
+        var mappingDictTtoS = new int[256];
         Arrays.fill(mappingDictTtoS, -1);
 
         for (int i = 0; i < s.length(); ++i) {
@@ -45,9 +44,7 @@ public class IsomorphicStrings {
             if (mappingDictStoT[c1] == -1 && mappingDictTtoS[c2] == -1) {
                 mappingDictStoT[c1] = c2;
                 mappingDictTtoS[c2] = c1;
-            }
-
-            else if (!(mappingDictStoT[c1] == c2 && mappingDictTtoS[c2] == c1)) {
+            } else if (!(mappingDictStoT[c1] == c2 && mappingDictTtoS[c2] == c1)) {
                 return false;
             }
         }

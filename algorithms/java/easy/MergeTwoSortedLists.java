@@ -8,15 +8,15 @@ public class MergeTwoSortedLists {
     private static final Logger LOGGER = LoggerFactory.getLogger(MergeTwoSortedLists.class);
 
     public static void main(String[] args) {
-        ListNode firstListNode1 = new ListNode(4, null);
-        ListNode firstListNode2 = new ListNode(2, firstListNode1);
-        ListNode firstListNode3 = new ListNode(1, firstListNode2);
+        var firstListNode1 = new ListNode(4, null);
+        var firstListNode2 = new ListNode(2, firstListNode1);
+        var firstListNode3 = new ListNode(1, firstListNode2);
 
-        ListNode secondListNode1 = new ListNode(4, null);
-        ListNode secondListNode2 = new ListNode(3, secondListNode1);
-        ListNode secondListNode3 = new ListNode(1, secondListNode2);
+        var secondListNode1 = new ListNode(4, null);
+        var secondListNode2 = new ListNode(3, secondListNode1);
+        var secondListNode3 = new ListNode(1, secondListNode2);
 
-        ListNode output = new MergeTwoSortedLists().mergeTwoLists(firstListNode3, secondListNode3);
+        var output = new MergeTwoSortedLists().mergeTwoLists(firstListNode3, secondListNode3);
         while (output != null) {
             LOGGER.info("{} ", output.val);
             output = output.next;
@@ -42,7 +42,7 @@ public class MergeTwoSortedLists {
     }
 
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode head = new ListNode();
+        var head = new ListNode();
         ListNode p = head;
 
         while (list1 != null && list2 != null) {
