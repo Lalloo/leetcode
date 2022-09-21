@@ -8,14 +8,13 @@ public class ReversedLinkedList {
     private static final Logger LOGGER = LoggerFactory.getLogger(ReversedLinkedList.class);
 
     public static void main(String[] args) {
-        var listNode1 = new ListNode(5, null);
-        var listNode2 = new ListNode(4, listNode1);
-        var listNode3 = new ListNode(3, listNode2);
-
-        var listNode4 = new ListNode(2, listNode3);
-        var listNode5 = new ListNode(1, listNode4);
-
-        var output = new ReversedLinkedList().iterative(listNode5);
+        var list = new ListNode(5, null);
+        for (int i = 4; i >= 1; i--) {
+            var node = new ListNode(i);
+            node.next = list;
+            list = node;
+        }
+        var output = new ReversedLinkedList().iterative(list);
         while (output != null) {
             LOGGER.info("{} ", output.val);
             output = output.next;
