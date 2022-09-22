@@ -24,8 +24,9 @@
 
 ### LeetCode Database
 
-| #    | Title                                                                                         | Solution                                              | Difficulty                         |
-|------|-----------------------------------------------------------------------------------------------|-------------------------------------------------------|------------------------------------|
-| 175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)                       | [MySQL](database/easy/CombineTwoTables.sql)           | $$\textcolor{green}{\text{easy}}$$ |
-| 185  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | [MySQL](database/hard/DepartmentTopThreeSalaries.sql) | $$\textcolor{red}{\text{hard}}$$   | 
-| 196  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)             | [MySQL](database/easy/SelectDuplicatesEmails.sql)     | $$\textcolor{green}{\text{easy}}$$ |
+| #     | Title                                                                                                         | Solution                                               | Difficulty                           |
+|-------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
+| 175   | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)                                       | [MySQL](database/easy/CombineTwoTables.sql)            | $$\textcolor{green}{\text{easy}}$$   |
+| 185   | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                 | [MySQL](database/hard/DepartmentTopThreeSalaries.sql)  | $$\textcolor{red}{\text{hard}}$$     | 
+| 196   | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                             | [MySQL](database/easy/SelectDuplicatesEmails.sql)      | $$\textcolor{green}{\text{easy}}$$   |
+| 1757  | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/) | [MySQL](database/easy/RecyclableAndLowFatProducts.sql) | $$\textcolor{green}{\text{easy}}$$   |
