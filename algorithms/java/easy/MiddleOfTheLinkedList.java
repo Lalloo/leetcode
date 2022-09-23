@@ -23,17 +23,21 @@ package easy;
 //Note:
 //The number of nodes in the given list will be between 1 and 100.
 
+import datastructures.ListNode;
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 
 public class MiddleOfTheLinkedList {
-    //Definition for singly-linked list.
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 
     public ListNode middleNode(ListNode head) {
         ListNode first = head;

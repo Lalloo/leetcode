@@ -1,7 +1,21 @@
 package easy;
 
+import datastructures.ListNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+
+/**
+ * Definition for singly-linked list.
+ * class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) {
+ *         val = x;
+ *         next = null;
+ *     }
+ * }
+ */
 
 public class ReversedLinkedList {
 
@@ -18,23 +32,6 @@ public class ReversedLinkedList {
         while (output != null) {
             LOGGER.info("{} ", output.val);
             output = output.next;
-        }
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
         }
     }
 
