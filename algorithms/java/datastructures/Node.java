@@ -3,6 +3,9 @@ package datastructures;
 
 import java.util.List;
 
+/*
+// Definition for a Node.
+*/
 public class Node {
     public int val;
     public List<Node> children;
