@@ -27,9 +27,12 @@
 
 ### LeetCode Database
 
-| #     | Title                                                                                                         | Solution                                               | Difficulty                           |
-|-------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
-| 175   | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)                                       | [MySQL](database/easy/CombineTwoTables.sql)            | $$\textcolor{green}{\text{easy}}$$   |
-| 185   | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                 | [MySQL](database/hard/DepartmentTopThreeSalaries.sql)  | $$\textcolor{red}{\text{hard}}$$     | 
-| 196   | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                             | [MySQL](database/easy/SelectDuplicatesEmails.sql)      | $$\textcolor{green}{\text{easy}}$$   |
-| 1757  | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/) | [MySQL](database/easy/RecyclableAndLowFatProducts.sql) | $$\textcolor{green}{\text{easy}}$$   |
+| #    | Title                                                                                                         | Solution                                               | Difficulty                           |
+|------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|--------------------------------------|
+| 175  | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/)                                       | [MySQL](database/easy/CombineTwoTables.sql)            | $$\textcolor{green}{\text{easy}}$$   |
+| 183  | [Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)                         | [MySQL](database/easy/CustomersWhoNeverOrder.sql)      | $$\textcolor{green}{\text{easy}}$$   |
+| 185  | [Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/)                 | [MySQL](database/hard/DepartmentTopThreeSalaries.sql)  | $$\textcolor{red}{\text{hard}}$$     | 
+| 196  | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)                             | [MySQL](database/easy/SelectDuplicatesEmails.sql)      | $$\textcolor{green}{\text{easy}}$$   |
+| 584  | [Find Customer Referee](https://leetcode.com/problems/find-customer-referee/)                                 | [MySQL](database/easy/FindCustomerReferee.sql)         | $$\textcolor{green}{\text{easy}}$$   |
+| 595  | [Big Countries](https://leetcode.com/problems/big-countries/)                                                 | [MySQL](database/easy/BigCountries.sql)                | $$\textcolor{green}{\text{easy}}$$   |
+| 1757 | [Recyclable and Low Fat Products](https://leetcode.com/problems/recyclable-and-low-fat-products/submissions/) | [MySQL](database/easy/RecyclableAndLowFatProducts.sql) | $$\textcolor{green}{\text{easy}}$$   |
