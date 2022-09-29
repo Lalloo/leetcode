@@ -17,6 +17,7 @@
 | 278  | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                     | [Java](algorithms/java/easy/FirstBadVersion.java)           | $$\textcolor{green}{\text{easy}}$$    |
 | 392  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                           | [Java](algorithms/java/easy/IsSubsequence.java)             | $$\textcolor{green}{\text{easy}}$$    |
 | 409  | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)                                   | [Java](algorithms/java/easy/LongestPalindrome.java)         | $$\textcolor{green}{\text{easy}}$$    |
+| 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                       | [Java](algorithms/java/easy/FibonacciNumber.java)           | $$\textcolor{green}{\text{easy}}$$    |
 | 551  | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)                 | [Java](algorithms/java/easy/StudentAttendanceRecordI.java)  | $$\textcolor{green}{\text{easy}}$$    |
 | 589  | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)             | [Java](algorithms/java/easy/NaryTreePreorderTraversal.java) | $$\textcolor{green}{\text{easy}}$$    |
 | 695  | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                   | [Java](algorithms/java/medium/MaxAreaOfIsland.java)         | $$\textcolor{orange}{\text{medium}}$$ |
