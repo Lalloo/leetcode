@@ -22,7 +22,6 @@ public class NaryTreePreorderTraversal {
         assert output.equals(new ArrayList<>(Arrays.asList(1, 3, 5, 6, 2, 4)));
     }
 
-
     public List<Integer> preorder(Node root) {
         var res = new ArrayList<Integer>();
         if (root == null)
